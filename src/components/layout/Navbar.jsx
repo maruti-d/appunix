@@ -17,8 +17,9 @@ const navLinks = [
     dropdown: [
       { title: "Web Development", path: "/services/web" },
       { title: "Mobile App Development", path: "/services/mobile" },
-      { title: "AI & Automation", path: "/services/ai" },
-      { title: "Shopify Development", path: "/services/shopify" }
+    //   { title: "AI & Automation", path: "/services/ai" },
+      { title: "Shopify Development", path: "/services/shopify" },
+      { title: "UI/UX & Product Design", path: "/services/uiux" }
     ]
   },
   { title: "Portfolio", path: "/portfolio" },
@@ -102,7 +103,7 @@ export default function Navbar() {
                         transition={{ duration: 0.18 }}
                         style={{
                           position: "absolute",
-                          top: "48px",
+                          top: "3.5rem",
                           background: "#000",
                           border: "1px solid rgba(0,229,168,0.2)",
                           borderRadius: "6px",
@@ -119,7 +120,7 @@ export default function Navbar() {
                             to={item.path}
                             sx={{
                               display: "block",
-                              padding: "12px 16px",
+                              padding: "7px 16px",
                               color: "#e8fff3",
                               textDecoration: "none",
                               "&:hover": { background: "rgba(0,229,168,0.15)", color: "#00e5a8" }
