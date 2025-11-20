@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.js": "/appunix/static/js/main.813ce910.js",
+    "static/media/ecommerce-store.png": "/appunix/static/media/ecommerce-store.0e2506446056351bc885.png",
+    "static/media/mobile-app-dev.png": "/appunix/static/media/mobile-app-dev.a57b51c85992a801f2fa.png",
+    "static/media/shopify-dev.png": "/appunix/static/media/shopify-dev.751c627f852c6262b919.png",
+    "static/media/web-dev.png": "/appunix/static/media/web-dev.fc5d0a3b96eb6fa7d336.png",
+    "static/media/hero-premium.png": "/appunix/static/media/hero-premium.9147840f372ca2ce97c1.png",
+    "static/media/logo.png": "/appunix/static/media/logo.7b3cf84808a847527fcb.png",
+    "service-worker.js": "/appunix/service-worker.js",
+    "index.html": "/appunix/index.html",
+    "main.813ce910.js.map": "/appunix/static/js/main.813ce910.js.map"
+  },
+  "entrypoints": [
+    "static/js/main.813ce910.js"
+  ]
+}
