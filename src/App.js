@@ -7,7 +7,7 @@ import AppRoutes from './routes/AppRoutes';
 export default function App(){
 return(
 <ThemeProvider theme={theme}>
-<BrowserRouter>
+<BrowserRouter basename="/">
 <Layout><AppRoutes /></Layout>
 </BrowserRouter>
 </ThemeProvider>
