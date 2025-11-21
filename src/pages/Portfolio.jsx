@@ -20,7 +20,7 @@ const projects = [
   {
     id: "mobile-app-ui",
     title: "Mobile Apps Android & iOS",
-    tech: "React",
+    tech: "Flutter, Dart, Java",
     image: mobilUI,
     category: "Flutter, Dart, Java",
   },
@@ -174,7 +174,8 @@ export default function Portfolio() {
             background: "#0d0d0d",
             border: "1px solid #00ff95",
             borderRadius: "16px",
-            width: "420px",
+            // width: "420px",
+            width: { xs: "90vw", sm: "400px", md: "450px" },
             mx: "auto",
             mt: "15vh",
             p: 4,
@@ -192,7 +193,7 @@ export default function Portfolio() {
                 {selected.title}
               </Typography>
 
-              <Typography sx={{ mb: 3, opacity: 0.8 }}>
+              <Typography sx={{ mb: 3, opacity: 0.8, color: "white" }}>
                 Tech Stack: <b style={{ color: "#00ff95" }}>{selected.tech}</b>
               </Typography>
 
