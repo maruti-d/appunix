@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.js": "/static/js/main.f65ea66f.js",
+    "main.js": "/static/js/main.65802cb9.js",
     "static/media/ecommerce-store.png": "/static/media/ecommerce-store.0e2506446056351bc885.png",
     "static/media/mobile-app-dev.png": "/static/media/mobile-app-dev.a57b51c85992a801f2fa.png",
     "static/media/shopify-dev.png": "/static/media/shopify-dev.751c627f852c6262b919.png",
@@ -9,9 +9,9 @@
     "static/media/logo.png": "/static/media/logo.7b3cf84808a847527fcb.png",
     "service-worker.js": "/service-worker.js",
     "index.html": "/index.html",
-    "main.f65ea66f.js.map": "/static/js/main.f65ea66f.js.map"
+    "main.65802cb9.js.map": "/static/js/main.65802cb9.js.map"
   },
   "entrypoints": [
-    "static/js/main.f65ea66f.js"
+    "static/js/main.65802cb9.js"
   ]
 }
