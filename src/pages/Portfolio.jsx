@@ -7,7 +7,7 @@ import mobilUI from "../assets/mobile-app-dev.png";
 import shopifyDev from "../assets/shopify-dev.png";
 import webDev from "../assets/web-dev.png";
 
-const categories = ["All", "Shopify", "React", "Node.js", "Next.js", "UI/UX"];
+const categories = ["All", "Shopify", "React", "Node.js", "UI/UX"];
 
 const projects = [
   {
