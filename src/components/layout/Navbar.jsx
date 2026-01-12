@@ -12,16 +12,17 @@ import logo from "../../assets/logo.png";
 
 const navLinks = [
   { title: "Home", path: "/" },
-  {
-    title: "Services",
-    dropdown: [
-      { title: "Web Development", path: "/services/web" },
-      { title: "Mobile App Development", path: "/services/mobile" },
-    //   { title: "AI & Automation", path: "/services/ai" },
-      { title: "Shopify Development", path: "/services/shopify" },
-      { title: "UI/UX & Product Design", path: "/services/uiux" }
-    ]
-  },
+  // {
+  //   title: "Services",
+  //   dropdown: [
+  //     { title: "Web Development", path: "/services/web" },
+  //     { title: "Mobile App Development", path: "/services/mobile" },
+  //   //   { title: "AI & Automation", path: "/services/ai" },
+  //     { title: "Shopify Development", path: "/services/shopify" },
+  //     { title: "UI/UX & Product Design", path: "/services/uiux" }
+  //   ]
+  // },
+  { title: "Services", path: "/services" },
   { title: "Portfolio", path: "/portfolio" },
   { title: "Contact", path: "/contact" }
 ];
@@ -51,14 +52,20 @@ export default function Navbar() {
     <>
       <AppBar
         position="sticky"
-        sx={{ background: "#000", borderBottom: "1px solid rgba(0,229,168,0.25)" }}
+        sx={{ 
+          background: "#000", 
+          borderBottom: "1px solid rgba(0,229,168,0.25)", 
+          height: 90,
+          justifyContent: "center"
+        }}
+        onMouseEnter={handleHover}
         onMouseLeave={handleLeave}
       >
         <Toolbar sx={{ display: "flex", justifyContent: "space-between" }}>
 
           {/* Logo */}
           <Box component={Link} to="/" sx={{ display: "flex", alignItems: "center" }}>
-            <img src={logo} alt="AppUnix" style={{ height: 48 }} />
+            <img src={logo} alt="AppUnix" style={{ height: 65 }} />
           </Box>
 
           {/* Desktop Navigation */}
