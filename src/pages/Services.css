@@ -18,7 +18,7 @@
   letter-spacing: -0.04em; /* Tighter letter spacing for that "Pro" look */
   line-height: 1.1;
   margin-bottom: 20px;
-  opacity: 0.7;
+  opacity: 0.9;
     }
 .accent {
   background: linear-gradient(to right, #00CE90, #00CE90);

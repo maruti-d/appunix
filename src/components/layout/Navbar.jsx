@@ -23,7 +23,7 @@ const navLinks = [
   //   ]
   // },
   { title: "Services", path: "/services" },
-  { title: "Portfolio", path: "/portfolio" },
+  // { title: "Portfolio", path: "/portfolio" },
   { title: "Contact", path: "/contact" }
 ];
 
@@ -55,7 +55,7 @@ export default function Navbar() {
         sx={{ 
           background: "#000", 
           borderBottom: "1px solid rgba(0,229,168,0.25)", 
-          height: 90,
+          height: 80,
           justifyContent: "center"
         }}
         onMouseEnter={handleHover}
